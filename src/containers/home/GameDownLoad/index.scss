@@ -1,0 +1,119 @@
+/**
+ * Author: liushaozong
+ * Date: 2017/6/6
+ * Time: 16:18
+ * Description:Description
+ */
+
+
+@import "../../../../libs/scss/normalize";
+@import "../../../../libs/scss/public";
+
+.game-down{
+    width: 300px;
+    height: 230px;
+    .game-title{
+        position: relative;
+        width: 300px;
+        height: 40px;
+        line-height: 40px;
+        .xian{
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 85px;
+            height: 2px;
+            background: #eb452b;
+        }
+        h6{
+            font-size: 20px;
+            color: #000000;
+            border-bottom: 1px #ccc solid;
+            span{
+                display: inline-block;
+                margin-left: 5px;
+                font-size: 12px;
+                color: #cccccc;
+            }
+        }
+    }
+    .icon{
+        width: 300px;
+        height: 62px;
+        padding: 20px 0;
+        border-bottom: 1px #ccc dashed;
+        .left{
+            width: 62px;
+            height: 62px;
+            float: left;
+            background: no-repeat;
+        }
+        .right{
+            width: 220px;
+            height: 62px;
+            float: right;
+            h6{
+                font-size: 16px;
+                color: #006abe;
+            }
+            .det{
+                color: #999999;
+                font-size: 12px;
+                line-height: 20px;
+            }
+            .btn{
+                width: 75px;
+                height: 22px;
+                text-align: center;
+                line-height: 22px;
+                font-size: 14px;
+                background: #47ace8;
+                color: #fff;
+                a{
+                    color:#fff ;
+                    &:hover{
+                        color: #eee;
+                    }
+                }
+            }
+        }
+    }
+    .download{
+        width: 300px;
+        height: 42px;
+        margin-top: 20px;
+        .ios{
+            float: left;
+            width:122px;
+            height: 42px;
+            margin-right: 20px;
+            a{
+                display: block;
+                width:122px;
+                height: 42px;
+                background: url("./img/download.png") no-repeat;
+                background-position:0 -63px;
+                &:hover{
+                    background: url("./img/download.png") no-repeat;
+                    background-position:0 0px;
+                }
+            }
+        }
+        .and{
+            float: left;
+            width:122px;
+            height: 42px;
+            a{
+                display: block;
+                width:122px;
+                height: 42px;
+                background: url("./img/download.png") no-repeat;
+                background-position:-130px -63px;
+                &:hover{
+                    background: url("./img/download.png") no-repeat;
+                    background-position:-130px 0px;
+                }
+            }
+        }
+    }
+}

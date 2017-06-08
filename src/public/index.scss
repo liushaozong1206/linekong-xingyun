@@ -1,0 +1,92 @@
+/**
+ * Author：zhoushuanglong
+ * Time：2017/5/4
+ * Description：Description
+ */
+@import "../../libs/scss/normalize";
+@import "../../libs/scss/public";
+
+/*公共样式*/
+html, body, #root, .ant-layout {
+    background: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.ant-card:hover {
+    //box-shadow: none !important;
+}
+
+textarea {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+/*报表样式*/
+.chart-layout {
+    margin-bottom: 16px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    .chart-item {
+        flex: 1 1 auto;
+    }
+    .left, .line, .right {
+
+    }
+}
+
+/*布局样式*/
+.app-main {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    .app-main-header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 64px;
+        width: 100%;
+        z-index: 1000;
+    }
+    .app-main-content {
+        padding-top: 64px;
+    }
+    .light {
+        background: #fff;
+    }
+    .header {
+        padding: 0;
+        background: #fff;
+    }
+    .content {
+        margin: 0 16px 16px;
+        background: #fff;
+        border-radius: 3px;
+        overflow: visible;
+    }
+}
+
+/*webkit滚动条样式*/
+* {
+    &::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+    }
+    &::-webkit-scrollbar-button {
+        background-color: #f0f0f0;
+    }
+    &::-webkit-scrollbar-track {
+        background: #f0f0f0;
+    }
+    &::-webkit-scrollbar-track-piece {
+        background: #f0f0f0;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #bbb;
+        border-radius: 5px;
+    }
+    &::-webkit-scrollbar-corner {
+        background: #f0f0f0;
+    }
+}

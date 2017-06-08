@@ -1,0 +1,58 @@
+/**
+ * Author: liushaozong
+ * Date: 2017/6/6
+ * Time: 16:18
+ * Description:Description
+ */
+
+
+@import "../../../../libs/scss/normalize";
+@import "../../../../libs/scss/public";
+
+.news{
+    width: 300px;
+    height: 230px;
+    float: right;
+    .news-title{
+        position: relative;
+        width: 300px;
+        height: 40px;
+        line-height: 40px;
+        .xian{
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 85px;
+            height: 2px;
+            background: #eb452b;
+        }
+        h6{
+            font-size: 20px;
+            color: #000000;
+            border-bottom: 1px #ccc solid;
+            span{
+                display: inline-block;
+                margin-left: 5px;
+                font-size: 12px;
+                color: #cccccc;
+            }
+        }
+    }
+    .cont{
+        width: 300px;
+        padding: 15px 0;
+        line-height: 30px;
+        font-size: 14px;
+        color: #666666;
+        overflow: hidden;
+        li{
+            border-bottom: 1px dashed #ccc;
+            a{
+                color:#666666 ;
+                &:hover{
+                    color: #333;
+                }
+            }
+        }
+    }
+}

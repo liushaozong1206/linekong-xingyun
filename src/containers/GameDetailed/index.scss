@@ -1,0 +1,32 @@
+/**
+ * Author：zhoushuanglong
+ * Time：2017/5/11
+ * Description：app.scss
+ */
+
+@import "../../../libs/scss/normalize";
+@import "../../../libs/scss/public";
+
+.content{
+    width: 1000px;
+    padding-top: 30px;
+    height: 295px;
+    margin: 0 auto;
+    background: #fff;
+    .left{
+        width: 300px;
+        height: 230px;
+        float: left;
+    }
+    .center{
+        width:300px;
+        height: 230px;
+        float: left;
+        margin: 0 50px;
+    }
+    .right{
+        width: 300px;
+        height: 230px;
+        float: right;
+    }
+}
